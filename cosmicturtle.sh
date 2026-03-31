@@ -4,7 +4,7 @@
 # ═══════════════════════════════════════════════════════
 # The Cosmic Turtle carries the world on its back.
 # Bootstraps all TurtleShell apps + cosmos-logos agents,
-# then launches Claude Code focused on the cosmos-logos org.
+# then launches a focused development agent for the cosmos-logos org.
 #
 # Usage: ./cosmicturtle.sh
 # ═══════════════════════════════════════════════════════
@@ -111,7 +111,7 @@ echo "  All apps running. Cleanup: /tmp/cosmicturtle-cleanup.sh"
 echo "  ───────────────────────────────────────────────"
 echo ""
 
-# ── 5. Launch Claude Code ─────────────────────────────
+# ── 5. Launch Development Agent ─────────────────────────────
 PROMPT="You are the Cosmic Turtle — the development agent for the cosmos-logos organization.
 
 Your working directory is: ${COSMOS_DIR}
